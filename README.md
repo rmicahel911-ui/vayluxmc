@@ -218,3 +218,5 @@ Se activa cuando `TEBEX_PUBLIC_TOKEN` está vacío o cuando la API de Tebex devu
 - El botón de pago explica que el cobro real se habilita al configurar Tebex.
 
 Cuando quieras ver tu catálogo real, solo tienes que pegar el token y reiniciar.
+#   v a y l u x m c  
+ 
