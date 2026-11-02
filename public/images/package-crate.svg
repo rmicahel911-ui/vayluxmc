@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Cajas y llaves">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="46%" r="60%">
+      <stop offset="0" stop-color="#ffb81f" stop-opacity=".3"/>
+      <stop offset=".5" stop-color="#e11d48" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#0f0508" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b91c1c"/>
+      <stop offset=".55" stop-color="#3a0a17"/>
+      <stop offset="1" stop-color="#3a0a17"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset=".45" stop-color="#ffd27a"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#0f0508"/>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g stroke="#f43f5e" stroke-opacity=".07" stroke-width="1">
+    <path d="M0 100H800M0 200H800M0 300H800M0 400H800M0 500H800"/>
+    <path d="M100 0V600M200 0V600M300 0V600M400 0V600M500 0V600M600 0V600M700 0V600"/>
+  </g>
+
+  <ellipse cx="400" cy="500" rx="200" ry="26" fill="#000" opacity=".5"/>
+
+  <!-- chest -->
+  <rect x="222" y="236" width="356" height="112" fill="#0a1330"/>
+  <rect x="234" y="248" width="332" height="92" fill="url(#wood)"/>
+  <rect x="234" y="248" width="332" height="10" fill="#f87171" opacity=".3"/>
+  <rect x="234" y="300" width="332" height="4" fill="#3a0a17" opacity=".8"/>
+
+  <rect x="222" y="344" width="356" height="132" fill="#0a1330"/>
+  <rect x="234" y="356" width="332" height="108" fill="url(#wood)"/>
+  <rect x="234" y="356" width="332" height="8" fill="#f43f5e" opacity=".25"/>
+  <rect x="248" y="396" width="304" height="4" fill="#3a0a17" opacity=".7"/>
+  <rect x="248" y="434" width="304" height="4" fill="#3a0a17" opacity=".7"/>
+
+  <!-- bands -->
+  <rect x="286" y="236" width="40" height="240" fill="#0a1330"/>
+  <rect x="294" y="244" width="24" height="224" fill="url(#gold)"/>
+  <rect x="294" y="244" width="7" height="224" fill="#fef3c7" opacity=".5"/>
+
+  <rect x="474" y="236" width="40" height="240" fill="#0a1330"/>
+  <rect x="482" y="244" width="24" height="224" fill="url(#gold)"/>
+  <rect x="482" y="244" width="7" height="224" fill="#fef3c7" opacity=".5"/>
+
+  <!-- lock -->
+  <rect x="364" y="308" width="72" height="86" fill="#0a1330"/>
+  <rect x="372" y="316" width="56" height="70" fill="url(#gold)"/>
+  <rect x="392" y="336" width="16" height="16" fill="#3a0a17"/>
+  <rect x="396" y="350" width="8" height="18" fill="#3a0a17"/>
+
+  <!-- feet -->
+  <rect x="252" y="476" width="32" height="16" fill="#0a1330"/>
+  <rect x="516" y="476" width="32" height="16" fill="#0a1330"/>
+
+  <!-- floating key -->
+  <g transform="rotate(-18 596 190)">
+    <circle cx="596" cy="190" r="46" fill="#0a1330"/>
+    <circle cx="596" cy="190" r="36" fill="none" stroke="url(#gold)" stroke-width="14"/>
+    <rect x="628" y="182" width="98" height="16" fill="#0a1330"/>
+    <rect x="632" y="185" width="94" height="10" fill="url(#gold)"/>
+    <rect x="676" y="195" width="10" height="26" fill="#0a1330"/>
+    <rect x="679" y="196" width="6" height="22" fill="url(#gold)"/>
+    <rect x="704" y="195" width="10" height="34" fill="#0a1330"/>
+    <rect x="707" y="196" width="6" height="30" fill="url(#gold)"/>
+  </g>
+
+  <g fill="#ffd27a">
+    <rect x="170" y="160" width="10" height="10"/>
+    <rect x="165" y="165" width="21" height="4" opacity=".45"/>
+    <rect x="640" y="330" width="8" height="8" opacity=".7"/>
+    <rect x="152" y="368" width="7" height="7" opacity=".65"/>
+  </g>
+</svg>

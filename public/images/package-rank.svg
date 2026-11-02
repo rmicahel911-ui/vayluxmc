@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Rangos">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#e11d48" stop-opacity=".38"/>
+      <stop offset=".55" stop-color="#3a0a17" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#0f0508" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f43f5e"/>
+      <stop offset=".55" stop-color="#881337"/>
+      <stop offset="1" stop-color="#3a0a17"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset=".45" stop-color="#ffd27a"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#0f0508"/>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g stroke="#f43f5e" stroke-opacity=".08" stroke-width="1">
+    <path d="M0 100H800M0 200H800M0 300H800M0 400H800M0 500H800"/>
+    <path d="M100 0V600M200 0V600M300 0V600M400 0V600M500 0V600M600 0V600M700 0V600"/>
+  </g>
+
+  <ellipse cx="400" cy="520" rx="180" ry="26" fill="#000" opacity=".5"/>
+
+  <!-- shield outline -->
+  <path d="M286 152h228v44h28v152l-142 152-142-152V196h28z" fill="#0a1330"/>
+  <path d="M300 166h200v34h24v142L400 464 276 342V200h24z" fill="url(#shield)"/>
+  <path d="M300 166h200v12H300z" fill="#ffd27a" opacity=".45"/>
+  <path d="M300 340l100 112 100-112v-140H300z" fill="#9f1239" opacity=".55"/>
+
+  <!-- crown -->
+  <path d="M330 300h16v-52h20v26h22v-44h24v44h22v-26h20v52h16v30H330z" fill="#0a1330"/>
+  <path d="M336 294h14v-44h16v26h22v-40h24v40h22v-26h16v44h14v26H336z" fill="url(#gold)"/>
+  <rect x="346" y="304" width="108" height="8" fill="#b45309"/>
+  <circle cx="400" cy="286" r="7" fill="#f43f5e"/>
+  <circle cx="366" cy="290" r="5" fill="#f43f5e"/>
+  <circle cx="434" cy="290" r="5" fill="#f43f5e"/>
+
+  <!-- banner -->
+  <rect x="356" y="336" width="88" height="10" fill="#ffd27a" opacity=".8"/>
+  <rect x="372" y="352" width="56" height="6" fill="#ffd27a" opacity=".5"/>
+
+  <!-- corner stars -->
+  <g fill="#ffd27a">
+    <rect x="180" y="140" width="12" height="12"/>
+    <rect x="174" y="146" width="24" height="4" opacity=".5"/>
+    <rect x="606" y="200" width="9" height="9" opacity=".8"/>
+    <rect x="600" y="204" width="20" height="3" opacity=".45"/>
+    <rect x="586" y="420" width="7" height="7" opacity=".6"/>
+    <rect x="196" y="430" width="7" height="7" opacity=".6"/>
+  </g>
+</svg>

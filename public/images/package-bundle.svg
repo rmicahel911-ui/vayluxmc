@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Bundles">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="44%" r="62%">
+      <stop offset="0" stop-color="#e11d48" stop-opacity=".3"/>
+      <stop offset=".5" stop-color="#ffd27a" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#0f0508" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#be123c"/>
+      <stop offset="1" stop-color="#2a0f18"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset=".45" stop-color="#ffd27a"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#0f0508"/>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g stroke="#f43f5e" stroke-opacity=".07" stroke-width="1">
+    <path d="M0 100H800M0 200H800M0 300H800M0 400H800M0 500H800"/>
+    <path d="M100 0V600M200 0V600M300 0V600M400 0V600M500 0V600M600 0V600M700 0V600"/>
+  </g>
+
+  <ellipse cx="400" cy="500" rx="230" ry="28" fill="#000" opacity=".5"/>
+
+  <!-- left box -->
+  <g opacity=".9">
+    <rect x="152" y="326" width="168" height="150" fill="#0a1330"/>
+    <rect x="162" y="336" width="148" height="130" fill="url(#box)"/>
+    <rect x="162" y="336" width="148" height="10" fill="#f43f5e" opacity=".35"/>
+    <rect x="204" y="326" width="26" height="150" fill="#0a1330"/>
+    <rect x="209" y="332" width="16" height="138" fill="url(#gold)"/>
+    <rect x="162" y="386" width="148" height="4" fill="#3a0a17" opacity=".7"/>
+    <rect x="162" y="430" width="148" height="4" fill="#3a0a17" opacity=".7"/>
+  </g>
+
+  <!-- right box -->
+  <g opacity=".9">
+    <rect x="480" y="326" width="168" height="150" fill="#0a1330"/>
+    <rect x="490" y="336" width="148" height="130" fill="url(#box)"/>
+    <rect x="490" y="336" width="148" height="10" fill="#f43f5e" opacity=".35"/>
+    <rect x="570" y="326" width="26" height="150" fill="#0a1330"/>
+    <rect x="575" y="332" width="16" height="138" fill="url(#gold)"/>
+    <rect x="490" y="386" width="148" height="4" fill="#3a0a17" opacity=".7"/>
+    <rect x="490" y="430" width="148" height="4" fill="#3a0a17" opacity=".7"/>
+  </g>
+
+  <!-- center box -->
+  <g>
+    <rect x="294" y="270" width="212" height="182" fill="#0a1330"/>
+    <rect x="306" y="282" width="188" height="158" fill="url(#box)"/>
+    <rect x="306" y="282" width="188" height="12" fill="#ffd27a" opacity=".45"/>
+    <rect x="306" y="340" width="188" height="5" fill="#3a0a17" opacity=".7"/>
+    <rect x="306" y="398" width="188" height="5" fill="#3a0a17" opacity=".7"/>
+    <rect x="356" y="270" width="34" height="182" fill="#0a1330"/>
+    <rect x="363" y="277" width="20" height="168" fill="url(#gold)"/>
+    <rect x="363" y="277" width="6" height="168" fill="#fef3c7" opacity=".55"/>
+    <rect x="410" y="270" width="34" height="182" fill="#0a1330"/>
+    <rect x="417" y="277" width="20" height="168" fill="url(#gold)"/>
+    <rect x="417" y="277" width="6" height="168" fill="#fef3c7" opacity=".55"/>
+    <rect x="380" y="330" width="40" height="46" fill="#0a1330"/>
+    <rect x="385" y="335" width="30" height="36" fill="url(#gold)"/>
+    <rect x="395" y="347" width="10" height="10" fill="#3a0a17"/>
+    <rect x="398" y="357" width="4" height="9" fill="#3a0a17"/>
+  </g>
+
+  <!-- ribbon badge -->
+  <g transform="rotate(-8 400 214)">
+    <rect x="318" y="192" width="164" height="44" fill="#0a1330"/>
+    <rect x="324" y="198" width="152" height="32" fill="url(#gold)"/>
+    <rect x="348" y="210" width="104" height="8" fill="#7c2d12" opacity=".65"/>
+  </g>
+
+  <g fill="#ffd27a">
+    <rect x="160" y="180" width="10" height="10"/>
+    <rect x="155" y="185" width="21" height="4" opacity=".45"/>
+    <rect x="636" y="196" width="9" height="9" opacity=".8"/>
+    <rect x="630" y="200" width="20" height="3" opacity=".45"/>
+    <rect x="612" y="430" width="7" height="7" opacity=".6"/>
+    <rect x="176" y="470" width="7" height="7" opacity=".6"/>
+  </g>
+</svg>
